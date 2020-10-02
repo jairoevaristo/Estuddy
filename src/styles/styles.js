@@ -52,7 +52,7 @@ export const WrapperEmail = styled.div`
     padding: 0 30px;
 
     > h1 {
-        font-weight: normal;
+        font-weight: bold;
         font-size: 30px;
         color: #5E81F4;
     }
@@ -93,7 +93,7 @@ export const WrapperInputPassword = styled.div`
     align-items: center;
     border-radius: 5px;
     border: solid 1px #ccc;
-    margin: 15px 0;
+    margin: 5px 0;
 
 `;
 
@@ -116,11 +116,11 @@ export const WrapperPassword = styled.div`
     display: flex;
     align-items: flex-start;
     flex-direction: column;
-    margin-top: 40px;
+    margin-top: 15px;
     padding: 0 30px;
 
     > h1 {
-        font-weight: normal;
+        font-weight: bold;
         font-size: 30px;
         color: #5E81F4;
     }
@@ -140,6 +140,7 @@ export const ButtonSign = styled.button`
     font-size: 25px;
     background-color:  #5E81F4;
     border-radius: 4px;
+    font-weight: bold;
     cursor: pointer;
     font-family: 'Inter', sans-serif;
     transform: opacity .2s linear;
