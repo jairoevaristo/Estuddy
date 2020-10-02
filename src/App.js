@@ -102,7 +102,7 @@ function App() {
                   <h1>Email</h1>
                   <WrapperInputEmail>
                     <ImageEmail src={email} />
-                    <InputEmail name="email" ref={register} placeholder="E-mail" autoFocus/>
+                    <InputEmail name="email" ref={register} autoComplete='off' placeholder="E-mail" autoFocus/>
                   </WrapperInputEmail>
                   <p>{errors.email?.message}</p>
                 </WrapperEmail>
