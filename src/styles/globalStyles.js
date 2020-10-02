@@ -1,6 +1,6 @@
 import { createGlobalStyle } from 'styled-components';
 
-const GlobalStyles = createGlobalStyle`
+export default createGlobalStyle`
    
     *, input, button {
         margin: 0;
@@ -12,9 +12,7 @@ const GlobalStyles = createGlobalStyle`
     }
    
    body{ 
-       background-color: #5E81F4;
+       background: ${props => props.theme.colors.background};
        font-family: 'Inter', sans-serif;
    }
 `;
-
-export default GlobalStyles;

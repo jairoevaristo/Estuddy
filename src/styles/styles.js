@@ -9,10 +9,10 @@ export const Container = styled.section`
 `;
 
 export const WrapperCard = styled.div`
-    background-color: #F5F5FB;
+    background-color: ${({ theme }) => theme.colors.card};
     width: 90%;
     height: 90%;
-    border-radius: 30px;
+    border-radius: 15px;
     display: flex;
     align-items: center;
 
@@ -21,12 +21,21 @@ export const WrapperImage = styled.div`
     height: 100%;
     width: 100%;
     display: flex;
+    flex-direction: column;
     align-items: center;
+
+    > div {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        width: 100%;
+        padding: 0 20px;
+    }
 `;
 
 export const Image = styled.img`
     width: 100%;
-    height: 100%;
+    height: 90%;
 `;
 
 export const WrapperCardLogin = styled.div`
@@ -37,7 +46,7 @@ export const WrapperCardLogin = styled.div`
 `;
 
 export const CardLogin = styled.div`
-    background-color: #F5F5FB;
+    background-color: ${({ theme }) => theme.colors.cardLogin};
     height: 90%;
     width: 100%;
     margin: 0 20px;
@@ -54,18 +63,23 @@ export const WrapperEmail = styled.div`
     > h1 {
         font-weight: bold;
         font-size: 30px;
-        color: #5E81F4;
+        color: ${({ theme }) => theme.colors.text};
+    }
+    > p {
+        color: red;
+        opacity: .8;
+        margin: 0 auto;
     }
 `;
 
 export const WrapperInputEmail = styled.div`
     display: flex;
     width: 100%;
-    background-color: #eee;
+    background-color: ${({ theme }) => theme.colors.input};
     justify-content: center;
     align-items: center;
     border-radius: 5px;
-    border: solid 1px #ccc;
+    border: ${({ theme }) => theme.colors.border};
     margin: 15px 0;
 
 `;
@@ -80,7 +94,8 @@ export const InputEmail = styled.input`
     width: 100%;
     padding: 20px 0;
     margin-right: 20px;
-    background-color: #eee;
+    background-color: ${({ theme }) => theme.colors.input};
+    color: ${({ theme }) => theme.colors.textInput};
     font-size: 25px;
     border-radius: 5px;
 `;
@@ -88,11 +103,11 @@ export const InputEmail = styled.input`
 export const WrapperInputPassword = styled.div`
     display: flex;
     width: 100%;
-    background-color: #eee;
+    background-color: ${({ theme }) => theme.colors.input};
     justify-content: center;
     align-items: center;
     border-radius: 5px;
-    border: solid 1px #ccc;
+    border: ${({ theme }) => theme.colors.border};
     margin: 5px 0;
 
 `;
@@ -107,7 +122,8 @@ export const InputPassword = styled.input`
     width: 100%;
     padding: 20px 0;
     margin-right: 20px;
-    background-color: #eee;
+    color: ${({ theme }) => theme.colors.textInput};
+    background-color: ${({ theme }) => theme.colors.input};
     font-size: 25px;
     border-radius: 5px;
 `;
@@ -122,7 +138,13 @@ export const WrapperPassword = styled.div`
     > h1 {
         font-weight: bold;
         font-size: 30px;
-        color: #5E81F4;
+        color: ${({ theme }) => theme.colors.text};
+    }
+
+    > p {
+        color: red;
+        opacity: .8;
+        margin: 0 auto;
     }
 `;
 
@@ -138,7 +160,7 @@ export const ButtonSign = styled.button`
     padding: 10px 80px;
     color: #fff;
     font-size: 25px;
-    background-color:  #5E81F4;
+    background-color:  ${({ theme }) => theme.colors.button};
     border-radius: 4px;
     font-weight: bold;
     cursor: pointer;
