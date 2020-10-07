@@ -2,9 +2,7 @@
 <br>
   <video src="<h1 align="center">
 <br>
-  <video width="320" height="240" controls>
-    <source src="https://www.facebook.com/100004140396045/videos/1752797771534886" type="video/mp4">
- </video>
+    <img src="https://github.com/Rocketseat/semana-omnistack-10/raw/master/.github/devradar.svg?sanitize=true" alt="DevRadar" width="240">
 <br>
 <br>
 Estudy
