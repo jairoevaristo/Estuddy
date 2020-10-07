@@ -31,17 +31,6 @@ This app features all the latest tools and practices in mobile development!
 
 <hr />
 
-## Features
-
-This app features all the latest tools and practices in mobile development!
-
-- ⚛️ **React Js** — A JavaScript library for building user interfaces
-
-## Getting started
-
-1. Clone this repo using `git clone https://github.com/jairoevaristo/Estuddy.git`
-2. Run `yarn` to install dependencies<br />
-
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](https://opensource.org/licenses/MIT) page for details.
