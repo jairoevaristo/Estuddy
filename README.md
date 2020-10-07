@@ -36,10 +36,7 @@ This app features all the latest tools and practices in mobile development!
 This project is licensed under the MIT License - see the [LICENSE](https://opensource.org/licenses/MIT) page for details.
 <br>
 <br>
-Estudy
 </h1>
-
-<p align="center">Login interface for an online study platform made with ReactJs that has a choice of light and dark themes and field validation.</p>
 
 <p align="center">
   <a href="https://opensource.org/licenses/MIT">
