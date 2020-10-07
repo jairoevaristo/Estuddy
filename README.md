@@ -2,7 +2,9 @@
 <br>
   <video src="<h1 align="center">
 <br>
-  <video src="https://www.facebook.com/100004140396045/videos/1752797771534886" alt="Estudy" width="240">
+  <video width="320" height="240" controls>
+    <source src="https://www.facebook.com/100004140396045/videos/1752797771534886" type="video/mp4">
+ </video>
 <br>
 <br>
 Estudy
