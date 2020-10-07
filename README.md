@@ -1,9 +1,9 @@
 <h1 align="center">
 <br>
-  <img src="https://github.com/Rocketseat/semana-omnistack-10/raw/master/.github/devradar.svg?sanitize=true" alt="DevRadar" width="240">
+  <img src="https://www.flaticon.com/svg/static/icons/svg/3527/3527359.svg" alt="Estudy" width="240">
 <br>
 <br>
-Estuddy
+Estudy
 </h1>
 
 <p align="center">Login interface for an online study platform made with ReactJs that has a choice of light and dark themes and field validation.</p>
