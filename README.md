@@ -27,7 +27,8 @@ This app features all the latest tools and practices in mobile development!
 ## Getting started
 
 1. Clone this repo using `git clone https://github.com/jairoevaristo/Estudy.git`
-2. Run `yarn` to install dependencies<br />
+2. Run `yarn` to install dependencies
+3. Type the command `yarn start` in the project directory to run the application<br />
 
 <hr />
 
